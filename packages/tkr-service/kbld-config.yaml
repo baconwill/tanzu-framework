@@ -2,8 +2,8 @@ apiVersion: kbld.k14s.io/v1alpha1
 kind: Config
 overrides:
 - image: tkr-resolver-cluster-webhook:latest
-  newImage: ""
+  newImage: projects.registry.vmware.com/lubron/tkg/management/tkr-resolver-cluster-webhook:latest
 - image: tkr-conversion-webhook:latest
-  newImage: ""
+  newImage: projects.registry.vmware.com/lubron/tkg/management/tkr-conversion-webhook:latest
 - image: tkr-status-controller:latest
-  newImage: ""
+  newImage: projects.registry.vmware.com/lubron/tkg/management/tkr-status-controller:latest

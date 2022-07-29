@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="providers1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pkg/v1/providers/client/manifest/providers.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

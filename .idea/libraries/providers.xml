@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="providers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pkg/v1/tkg/fakes/providers/providers.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

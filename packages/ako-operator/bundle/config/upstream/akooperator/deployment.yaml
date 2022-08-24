@@ -1,3 +1,4 @@
+#@ load("@ytt:data", "data")
 ---
 apiVersion: v1
 kind: Namespace
@@ -26,7 +27,7 @@ spec:
             - --metrics-addr=:8080
           command:
             - /manager
-          image: projects-stg.registry.vmware.com/tkg/ako-operator:v1.6.0_vmware.1
+          image: projects-stg.registry.vmware.com/tkg/ako-operator:v1.6.0_vmware.14
           name: manager
           ports:
             - containerPort: 9443

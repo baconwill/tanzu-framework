@@ -2,4 +2,4 @@ apiVersion: kbld.k14s.io/v1alpha1
 kind: Config
 overrides:
 - image: addons-controller:latest
-  newImage: projects.registry.vmware.com/lubron/tkg/management/addons-controller:v0.25.0-dev-64-g5e4cfc17-dirty
+  newImage: projects.registry.vmware.com/lubron/tkg/management/addons-controller:v0.25.0-dev-66-gbaa5d914-dirty
